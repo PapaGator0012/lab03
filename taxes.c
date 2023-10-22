@@ -70,7 +70,11 @@ totalTax=tax-childCredit;
   childCredit=numChildren*2000;
   totalTax=tax-childCredit;
  }
+   
+   if (totalTax<0){
 
+    totalTax=0;
+   }
 
 
 
