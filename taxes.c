@@ -64,6 +64,11 @@ totalTax=tax-childCredit;
   tax=95686+0.35*(agi-418850);
   childCredit=numChildren*2000 ;
   totalTax=tax-childCredit;
+ } else if (agi> 628301){
+  agi;
+  tax=168933.50+0.37*(agi-628300); 
+  childCredit=numChildren*2000;
+  totalTax=tax-childCredit;
  }
 
 
