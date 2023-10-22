@@ -47,7 +47,8 @@ int main(int argc, char **argv) {
      else 
      printf("b %f is greater than a %f",b,a);
   } else if(choice == 6) {
-    //TODO: handle this case (log_a(b))
+    double logres = log(a)*b;
+    printf(" %lf ",logres);
   } else {
     printf("Please input a valid operator next time");
   }
