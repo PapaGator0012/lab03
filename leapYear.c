@@ -83,10 +83,19 @@ numPassed=numPassed + 1;
      } else {
       printf("PASSED !  \n");
       numPassed=numPassed + 1;
-      
+
      }
 
-    
+    year=1300;
+    printf("Test case 6 : year = %d : ",year);
+    if(!isLeapYear(year)){
+      printf("FAILED ! \n");
+      numFailed=numFailed +1;
+    }  else {
+printf("PASSED ! \n");
+numPassed=numPassed +1;
+
+    }
 
 
   printf("\n\n");
