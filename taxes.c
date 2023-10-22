@@ -49,10 +49,16 @@ childCredit=numChildren;
 totalTax=tax-childCredit;
  } else if(agi>=172751 && agi<=329850){
  agi;
- tax=9328+0.22*(agi-81050);
+ tax=29502+0.24*(agi-81050);
  childCredit=numChildren*2000;
 totalTax=tax-childCredit;
 
+ } else if (agi>=329851 && agi<=418850){
+
+  agi;
+  tax=67206+0.32*(agi-329850);
+  childCredit=numChildren*2000;
+  totalTax=tax-childCredit;
  }
 
 
