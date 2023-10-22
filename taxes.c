@@ -42,6 +42,11 @@ agi;
   totalTax=tax-childCredit;
 
 
+ } else if (agi>=81051 && agi<=172750){
+agi;
+tax=9328+0.22*(agi-81050);
+childCredit=numChildren;
+
  }
 
 
