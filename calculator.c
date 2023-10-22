@@ -1,6 +1,6 @@
 /**
- * Author:
- * Date:
+ * Author:Syed Hassam Jan 
+ * Date: 10/22/2023 
  *
  * This programs provides basic calculator functionality
  * allowing a user to enter two operands and to compute
