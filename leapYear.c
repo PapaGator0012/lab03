@@ -73,6 +73,21 @@ printf("PASSED! \n");
 numPassed=numPassed + 1;
 
      }
+    
+    year=1200;
+    printf("Test case 5 : year = %d : ",year);
+     if(!isLeapYear(year)){
+      printf("FAILED! \n");
+      numFailed =numFailed +1 ;
+         
+     } else {
+      printf("PASSED !  \n");
+      numPassed=numPassed + 1;
+      
+     }
+
+    
+
 
   printf("\n\n");
   printf("Summary:\n");
