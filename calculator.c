@@ -41,7 +41,11 @@ int main(int argc, char **argv) {
   } else if(choice == 4) {
     printf("%f divided %f = %f"a,b,a/b);
   } else if(choice == 5) {
-    //TODO: handle this case (minimum)
+     if (a>b){
+      printf("a %f is greater than b %f",a,b);
+     }
+     else 
+     printf("b %f is greater than a %f",b,a);
   } else if(choice == 6) {
     //TODO: handle this case (log_a(b))
   } else {
